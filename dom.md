@@ -1,5 +1,5 @@
 #HTML DOM 日记
-参考手册：http://www.w3school.com.cn/htmldom/index.asp
+参考手册：http://www.w3school.com.cn/htmldom/index.asp, http://www.hbcms.com/main/dhtml/
 
 ##属性:
 1. attributes     存储节点的属性列表(只读)
