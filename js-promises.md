@@ -1,7 +1,7 @@
 #Six Things You Might Not Know About Promises
 referer: 
+
 http://www.sitepoint.com/six-things-might-know-promises/
-https://github.com/promises-aplus/promises-spec/blob/master/implementations.md
 
 Promises are a simple concept, and even if you haven’t had a chance to use them, you may have already read up on them. They are a valuable construct that enables asynchronous code to be structured in a more readable fasion, rather than as a mess of nested anonymous functions. This article touches on six things that you might not know about promises.
 
@@ -178,4 +178,4 @@ function runme() {
 You may think it will alert 2, since the promise is resolved immediately and the then() function is executed immediately (synchronously). However, the promise specification requires all calls to be forcefully asynchronous in an effort to be uniform. Therefore, the alert is called before the value of i is modified.
 
 Links:
-Download various implementations of the Promise/A+ API.
+Download various implementations of the [Promise/A+ API](https://github.com/promises-aplus/promises-spec/blob/master/implementations.md).
